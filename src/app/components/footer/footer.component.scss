@@ -1,0 +1,10 @@
+@import "../../../assets/styles/variables";
+
+footer {
+    display: grid;
+    place-content: center;
+    height: 8vh;
+    background-color: $white;
+    color: $purple;
+    font-weight: 500;
+}

@@ -1,0 +1,19 @@
+@import "../../../assets/styles/variables";
+
+.range {
+    padding: 1.5rem 1rem;
+    background-color: $purple;
+
+    h4 {
+        text-align: center;
+        text-transform: uppercase;
+        color: $black;
+        font-size: 1.2rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .faixa {
+        padding: 2rem 0;
+    }
+}
