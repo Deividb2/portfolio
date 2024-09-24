@@ -1,0 +1,23 @@
+main {
+    display: grid;
+    place-content: center;
+    gap: 1rem;
+    height: 100vh;
+    text-align: center;
+
+    h1 {
+        color: #ff4646;
+    }
+
+    h3 {
+        color: #fff;
+    }
+
+    a {
+        text-decoration: none;
+        padding: 1rem 1.5rem;
+        background: #2b2b2b;
+        color: #ff4646;
+        color: #fff;
+    }
+}
