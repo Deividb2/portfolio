@@ -3,45 +3,52 @@
 .contact {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     gap: 2rem;
-    padding: 3rem .8rem;
+    min-height: 50vh;
+    padding: 0 1rem;
 
-    .contact__title {
-        font-size: 2rem;
-        text-align: center;
-        color: $white;
+    .contact__networks {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 3rem;
+
+        a {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 1rem;
+            text-decoration: none;
+
+            div {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding: 1.3rem;
+                background-color: $purple-100;
+                border-radius: 100%;
+
+                ng-icon {
+                    font-size: 1.5rem;
+                    color: $white;
+                }
+            }
+
+            h4 {
+                color: $gray;
+            }
+        }
     }
 
-    .contact__form form {
-        display: grid;
-        gap: 1.5rem;
+}
 
-        div {
-            display: grid;
-            gap: .5rem;
+@media(min-width: 768px) {
+    .contact {
 
-            label {
-                font-size: 1.1rem;
-                color: $white;
-            }
-
-            input,
-            textarea {
-                font-size: 1rem;
-                padding: .5rem;
-                border: none;
-                outline: none;
-                box-shadow: 0 0 5px $purple;
-            }
-
-            textarea {
-                height: 10rem;
-                resize: none;
-            }
-
-            input[type="submit"] {
-                font-weight: 700;
-            }
+        .contact__networks {
+            gap: 5rem;
         }
     }
 }

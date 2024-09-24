@@ -1,32 +1,33 @@
 <section class="contact" id="contato">
-    <h2 class="contact__title">Contato</h2>
+    <h2 class="titles__sections">Contato</h2>
 
-    <div class="contact__form">
-        <form (submit)="onSubmit($event)">
+    <div class="contact__networks">
+        <a href="https://github.com/Deividb2" target="_blank">
             <div>
-                <label for="nome">Nome</label>
-                <input type="text" name="nome" id="nome"
-                    placeholder="Digite seu nome">
+                <ng-icon name="gitHub"></ng-icon>
             </div>
+            <h4>GitHub</h4>
+        </a>
 
+        <a href="mailto:deividbarreto57@gmail.com" target="_blank">
             <div>
-                <label for="email">Email</label>
-                <input type="email" placeholder="Digite seu email">
+                <ng-icon name="email"></ng-icon>
             </div>
+            <h4>Email</h4>
+        </a>
 
+        <a href="https://www.linkedin.com/in/deividbarretocruz" target="_blank">
             <div>
-                <label for="msg">Mensagem</label>
-                <textarea name="message" id="msg"
-                    placeholder="Digite sua mensagem"></textarea>
+                <ng-icon name="linkedin"></ng-icon>
             </div>
+            <h4>Linkedin</h4>
+        </a>
 
+        <a href="https://wa.me/5521977201714" target="_blank">
             <div>
-                <input type="submit" value="Enviar">
+                <ng-icon name="whatsapp"></ng-icon>
             </div>
-        </form>
+            <h4>Whatsapp</h4>
+        </a>
     </div>
 </section>
-
-<div>
-
-</div>
