@@ -1,3 +1,5 @@
+@import "../../../assets/styles/variables";
+
 .projects {
     display: flex;
     flex-direction: column;
@@ -5,101 +7,103 @@
     gap: 2rem;
     padding: 2rem 1rem;
     min-height: 100vh;
-}
 
-.projects__title {
-    font-size: 1.5rem;
-}
+    &__box {
+        display: grid;
+        gap: 4rem;
 
-.projects__box {
-    display: grid;
-    gap: 1rem;
-}
+        &--card {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            width: 90vw;
 
-/* Tipo de card */
+            &__img {
+                display: grid;
+                place-content: center;
+                gap: 1rem;
+                background-color: #ccc;
+                width: 100%;
+                height: 30vh;
 
-.project__card {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    width: 90vw;
-}
+                & a {
+                    text-align: center;
+                    text-decoration: none;
+                    padding: 0.8rem 1.5rem;
+                    border: 1px solid $black;
+                    color: $black;
+                }
+            }
 
-.project__card--img {
-    display: grid;
-    place-content: center;
-    background-color: #ccc;
-    width: 100%;
-    height: 30vh;
-}
+            &__content {
+                display: grid;
+                gap: 1rem;
 
-.project__card--img div {
-    display: grid;
-    gap: 1rem;
-}
+                &--title {
+                    color: $purple;
+                }
 
-.project__card--img div a {
-    text-align: center;
-    text-decoration: none;
-    color: #000;
-    padding: 1rem;
-    border: 1px solid #000;
-}
+                &--text {
+                    color: $gray;
+                }
 
-.project__card--content {
-    display: grid;
-    gap: 1rem;
-}
+                &--tech {
+                    display: grid;
+                    gap: .5rem;
 
-.project__card--content__tech {
-    display: grid;
-    gap: 0.5rem;
-}
+                    &__title {
+                        color: $purple;
+                    }
 
-.project__card--content__tech--techs {
-    display: flex;
-    gap: 1rem;
-}
+                    &__techs {
+                        display: flex;
+                        gap: 1rem;
 
-.project__card--content__tech--techs div {
-    background-color: #ccc;
-    width: 3rem;
-    height: 3rem;
-}
+                        div {
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            width: 3rem;
+                            height: 3rem;
+                            font-size: 1.2rem;
+                            color: $gray;
+                            border: 2px solid $gray;
+                            border-radius: 15%;
+                        }
+                    }
+                }
+            }
+        }
 
-.links {
-    display: flex;
-    gap: 1rem;
-    margin-top: 1rem;
-}
-
-.links a {
-    text-decoration: none;
-    padding: 0.8rem 1.5rem;
-    border: 1px solid #000;
+    }
 }
 
 @media (min-width: 768px) {
-    .projects__box {
-        grid-template-columns: repeat(2, auto);
-        grid-auto-rows: auto;
-        gap: 2rem;
-        row-gap: 5rem;
-    }
+    .projects {
+        &__box {
+            grid-template-columns: repeat(2, auto);
+            grid-auto-rows: auto;
+            row-gap: 4rem;
 
-    .project__card {
-        max-width: 20rem;
+            &--card {
+                max-width: 20rem;
+            }
+        }
     }
 }
 
 @media (min-width: 1024px) {
-    .projects__box {
-        gap: 4rem;
+    .projects {
+        &__box {
+            gap: 4rem;
+        }
     }
 }
 
 @media (min-width: 1440px) {
-    .projects__box {
-        grid-template-columns: repeat(3, auto);
+    .projects {
+        &__box {
+            grid-template-columns: repeat(3, auto);
+        }
     }
 }

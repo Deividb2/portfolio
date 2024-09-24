@@ -14,5 +14,37 @@ body,
 }
 
 body {
-    background-color: $black-100;
+    background-color: $black;
+}
+
+.titles__sections {
+    font-size: 2rem;
+    text-align: center;
+    color: $white;
+
+    @media(min-width: 768px) {
+        text-transform: uppercase;
+    }
+}
+
+// estilização da barra lateral
+::-webkit-scrollbar {
+    width: 1rem;
+
+    // estiliza a barra de rolagem
+    &-thumb {
+        background-color: $purple-100;
+        border-radius: 0.6rem;
+        border: 3px solid transparent;
+        background-clip: padding-box;
+
+        &:hover {
+            background-color: $purple;
+        }
+    }
+
+    // estiliza a trilha
+    &-track {
+        background-color: transparent;
+    }
 }

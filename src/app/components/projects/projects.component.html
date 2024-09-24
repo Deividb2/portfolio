@@ -1,82 +1,22 @@
 <section class="projects" id="projetos">
-    <h2 class="projects__title">Projetos</h2>
+    <h2 class="titles__sections">Projetos</h2>
 
     <section class="projects__box">
-        <div class="project__card">
-            <div class="project__card--img">
-                <div>
-                    <a href>GitHub</a>
-                    <a href>Ver Projeto</a>
-                </div>
+        <div class="projects__box--card" *ngFor="let project of Projects">
+            <div class="projects__box--card__img">
+                <a [href]="project.linkGitHub">GitHub</a>
+                <a [href]="project.linkProject">Ver Projeto</a>
             </div>
-            <div class="project__card--content">
-                <h3 class="project__card--content__title">Restaurante
-                    Dining</h3>
-                <p class="project__card--content__text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing
-                    elit. Facilis illum sapiente incidunt dolorem rem ab
-                    praesentium itaque!
-                </p>
-                <div class="project__card--content__tech">
-                    <h3
-                        class="project__card--content__tech--title">Tecnologias</h3>
-                    <div class="project__card--content__tech--techs">
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                    </div>
-                </div>
-            </div>
-        </div>
 
-        <div class="project__card">
-            <div class="project__card--img">
-                <div>
-                    <a href>GitHub</a>
-                    <a href>Ver Projeto</a>
-                </div>
-            </div>
-            <div class="project__card--content">
-                <h3 class="project__card--content__title">Restaurante
-                    Dining</h3>
-                <p class="project__card--content__text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing
-                    elit. Facilis illum sapiente incidunt dolorem rem ab
-                    praesentium itaque!
-                </p>
-                <div class="project__card--content__tech">
-                    <h3
-                        class="project__card--content__tech--title">Tecnologias</h3>
-                    <div class="project__card--content__tech--techs">
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="project__card">
-            <div class="project__card--img">
-                <div>
-                    <a href>GitHub</a>
-                    <a href>Ver Projeto</a>
-                </div>
-            </div>
-            <div class="project__card--content">
-                <h3 class="project__card--content__title">Restaurante
-                    Dining</h3>
-                <p class="project__card--content__text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing
-                    elit. Facilis illum sapiente incidunt dolorem rem ab
-                    praesentium itaque!
-                </p>
-                <div class="project__card--content__tech">
-                    <h3 class="project__card--content__tech--title">Tecnologias</h3>
-                    <div class="project__card--content__tech--techs">
-                        <div></div>
-                        <div></div>
-                        <div></div>
+            <div class="projects__box--card__content">
+                <h3 class="projects__box--card__content--title">{{ project.name }}</h3>
+                <p class="projects__box--card__content--text">{{ project.description }}</p>
+                <div class="projects__box--card__content--tech">
+                    <h3 class="projects__box--card__content--tech__title">Tecnologias</h3>
+                    <div class="projects__box--card__content--tech__techs">
+                        <div *ngFor="let icon of project.techs">
+                            <ng-icon [name]="icon"></ng-icon>
+                        </div>
                     </div>
                 </div>
             </div>
