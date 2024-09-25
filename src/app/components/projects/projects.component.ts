@@ -17,6 +17,11 @@ import { tablerBrandReact as react } from '@ng-icons/tabler-icons';
   templateUrl: './projects.component.html',
   styleUrl: './projects.component.scss'
 })
+
 export class ProjectsComponent {
   Projects = projects
+
+  nome: string = "Deivid";
+
+  constructor() { }
 }

@@ -11,7 +11,7 @@ export const projects: Array<IProjects> = [
     {
         "name": "Barretos Barbearia",
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis illum sapiente incidunt dolorem rem ab praesentium itaque!",
-        "pathImg": "caminho da imagem",
+        "pathImg": "../../../assets/images/barretos-barbearia.png",
         "techs": ["html", "css", "js", "react"],
         "linkGitHub": "",
         "linkProject": ""
@@ -19,7 +19,7 @@ export const projects: Array<IProjects> = [
     {
         "name": "AMCK Planejados",
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis illum sapiente incidunt dolorem rem ab praesentium itaque!",
-        "pathImg": "caminho da imagem",
+        "pathImg": "../../../assets/images/amck.png",
         "techs": ["html", "css", "js"],
         "linkGitHub": "",
         "linkProject": ""
@@ -27,7 +27,7 @@ export const projects: Array<IProjects> = [
     {
         "name": "Restaurante Dining",
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis illum sapiente incidunt dolorem rem ab praesentium itaque!",
-        "pathImg": "caminho da imagem",
+        "pathImg": "../../../assets/images/barretos-barbearia.png",
         "techs": ["html", "css", "js"],
         "linkGitHub": "",
         "linkProject": ""
@@ -35,7 +35,7 @@ export const projects: Array<IProjects> = [
     {
         "name": "47 Cafeteria",
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis illum sapiente incidunt dolorem rem ab praesentium itaque!",
-        "pathImg": "caminho da imagem",
+        "pathImg": "../../../assets/images/barretos-barbearia.png",
         "techs": ["html", "css", "js"],
         "linkGitHub": "",
         "linkProject": ""
@@ -43,7 +43,7 @@ export const projects: Array<IProjects> = [
     {
         "name": "Timbrehits",
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis illum sapiente incidunt dolorem rem ab praesentium itaque!",
-        "pathImg": "caminho da imagem",
+        "pathImg": "../../../assets/images/barretos-barbearia.png",
         "techs": ["html", "css", "js"],
         "linkGitHub": "",
         "linkProject": ""
@@ -51,7 +51,7 @@ export const projects: Array<IProjects> = [
     {
         "name": "Barros Consultores",
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis illum sapiente incidunt dolorem rem ab praesentium itaque!",
-        "pathImg": "caminho da imagem",
+        "pathImg": "../../../assets/images/barretos-barbearia.png",
         "techs": ["html", "css", "js"],
         "linkGitHub": "",
         "linkProject": ""
@@ -59,7 +59,7 @@ export const projects: Array<IProjects> = [
     {
         "name": "LD Obras",
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis illum sapiente incidunt dolorem rem ab praesentium itaque!",
-        "pathImg": "caminho da imagem",
+        "pathImg": "../../../assets/images/barretos-barbearia.png",
         "techs": ["html", "css", "js"],
         "linkGitHub": "",
         "linkProject": ""
@@ -67,7 +67,7 @@ export const projects: Array<IProjects> = [
     {
         "name": "Carpintaria",
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis illum sapiente incidunt dolorem rem ab praesentium itaque!",
-        "pathImg": "caminho da imagem",
+        "pathImg": "../../../assets/images/barretos-barbearia.png",
         "techs": ["html", "css", "js"],
         "linkGitHub": "",
         "linkProject": ""
@@ -75,7 +75,7 @@ export const projects: Array<IProjects> = [
     {
         "name": "Carros Vintage",
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis illum sapiente incidunt dolorem rem ab praesentium itaque! ",
-        "pathImg": "caminho da imagem",
+        "pathImg": "../../../assets/images/barretos-barbearia.png",
         "techs": ["html", "css", "js"],
         "linkGitHub": "",
         "linkProject": ""
@@ -83,7 +83,7 @@ export const projects: Array<IProjects> = [
     {
         "name": "Harvard",
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis illum sapiente incidunt dolorem rem ab praesentium itaque!",
-        "pathImg": "caminho da imagem",
+        "pathImg": "../../../assets/images/barretos-barbearia.png",
         "techs": ["html", "css", "js"],
         "linkGitHub": "",
         "linkProject": ""
@@ -91,7 +91,7 @@ export const projects: Array<IProjects> = [
     {
         "name": "Fitness GYM",
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis illum sapiente incidunt dolorem rem ab praesentium itaque!",
-        "pathImg": "caminho da imagem",
+        "pathImg": "../../../assets/images/barretos-barbearia.png",
         "techs": ["html", "css", "js"],
         "linkGitHub": "",
         "linkProject": ""
@@ -99,7 +99,7 @@ export const projects: Array<IProjects> = [
     {
         "name": "Advice Generator",
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis illum sapiente incidunt dolorem rem ab praesentium itaque!",
-        "pathImg": "caminho da imagem",
+        "pathImg": "../../../assets/images/barretos-barbearia.png",
         "techs": ["html", "css", "js"],
         "linkGitHub": "",
         "linkProject": ""

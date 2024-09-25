@@ -3,21 +3,26 @@
 
     <section class="projects__box">
         <div class="projects__box--card" *ngFor="let project of Projects">
-            <div class="projects__box--card__img">
-                <a [href]="project.linkGitHub">GitHub</a>
-                <a [href]="project.linkProject">Ver Projeto</a>
-            </div>
+            <img [src]="project.pathImg" alt="Imagem do projeto" class="projects__box--card__img">
 
             <div class="projects__box--card__content">
-                <h3 class="projects__box--card__content--title">{{ project.name }}</h3>
-                <p class="projects__box--card__content--text">{{ project.description }}</p>
+                <h3 class="projects__box--card__content--title">{{ project.name
+                    }}</h3>
+                <p class="projects__box--card__content--text">{{
+                    project.description }}</p>
                 <div class="projects__box--card__content--tech">
-                    <h3 class="projects__box--card__content--tech__title">Tecnologias</h3>
+                    <h3
+                        class="projects__box--card__content--tech__title">Tecnologias</h3>
                     <div class="projects__box--card__content--tech__techs">
                         <div *ngFor="let icon of project.techs">
                             <ng-icon [name]="icon"></ng-icon>
                         </div>
                     </div>
+                </div>
+
+                <div class="projects__box--card__content--buttons">
+                    <a [href]="project.linkGitHub">GitHub</a>
+                    <a [href]="project.linkProject">Ver Projeto</a>
                 </div>
             </div>
         </div>
