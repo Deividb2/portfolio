@@ -1,16 +1,41 @@
 <header class="header">
-    <h1 class="header__title">Deivid</h1>
-    <nav class="header__nav">
-        <ul>
-            <li class="header__nav--item">
-                <a href="#sobre">Sobre</a>
-            </li>
-            <li class="header__nav--item">
-                <a href="#projetos">Projetos</a>
-            </li>
-            <li class="header__nav--item">
-                <a href="#contato">Contato</a>
-            </li>
-        </ul>
-    </nav>
+    <div (click)="hendleMenu()" class="header__menuIcon">
+        <ng-icon [name]="iconMenu"></ng-icon>
+    </div>
+
+    <div class="header__content" [class.openMenu]="hendleMenuProp">
+        <h1 class="header__content--title">Deivid</h1>
+
+        <nav class="header__content--nav">
+            <ul class="header__content--nav__list">
+                <li>
+                    <a href="#sobre"
+                        class="header__content--nav__list--item">Sobre</a>
+                </li>
+                <li>
+                    <a href="#projetos"
+                        class="header__content--nav__list--item">Projetos</a>
+                </li>
+                <li>
+                    <a href="#contato"
+                        class="header__content--nav__list--item">Contato</a>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="header__content--networks">
+            <a href="https://github.com/Deividb2" target="_blank">
+                <ng-icon name="gitHub"></ng-icon>
+            </a>
+            <a href="mailto:deividbarreto57@gmail.com" target="_blank">
+                <ng-icon name="email"></ng-icon>
+            </a>
+            <a href="https://www.linkedin.com/in/deividbarretocruz" target="_blank">
+                <ng-icon name="linkedin"></ng-icon>
+            </a>
+            <a href="https://wa.me/5521977201714" target="_blank">
+                <ng-icon name="whatsapp"></ng-icon>
+            </a>
+        </div>
+    </div>
 </header>
