@@ -59,7 +59,7 @@ export const projects: Array<IProjects> = [
     {
         "name": "LD Obras",
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis illum sapiente incidunt dolorem rem ab praesentium itaque!",
-        "pathImg": "../../../assets/images/barretos-barbearia.png",
+        "pathImg": "../../../assets/images/ld-obras.png",
         "techs": ["html", "css", "js", "react"],
         "linkGitHub": "https://github.com/Deividb2/ld-obras",
         "linkProject": "https://ld-obras.vercel.app"
