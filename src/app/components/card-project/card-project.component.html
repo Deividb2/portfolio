@@ -1,0 +1,22 @@
+<div class="card">
+    <img [src]="dataCard.pathImg" alt="Imagem do projeto"
+        class="card__img">
+
+    <div class="card__content">
+        <h3 class="card__content--title">{{ dataCard.name }}</h3>
+        <p class="card__content--text">{{ dataCard.description }}</p>
+        <div class="card__content--tech">
+            <h3 class="card__content--tech__title">Tecnologias</h3>
+            <div class="card__content--tech__techs">
+                <div *ngFor="let icon of dataCard.techs">
+                    <ng-icon [name]="icon"></ng-icon>
+                </div>
+            </div>
+        </div>
+
+        <div class="card__content--buttons">
+            <a [href]="dataCard.linkGitHub" target="_blank">GitHub</a>
+            <a [href]="dataCard.linkProject" target="_blank">Ver Projeto</a>
+        </div>
+    </div>
+</div>

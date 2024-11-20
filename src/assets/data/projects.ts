@@ -1,16 +1,9 @@
-interface IProjects {
-    name: string,
-    description: string,
-    pathImg: string,
-    techs: Array<string>,
-    linkGitHub: string,
-    linkProject: string
-}
+import { IProjects } from "../interfaces/projects.interface";
 
 export const projects: Array<IProjects> = [
     {
         "name": "Barretos Barbearia",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis illum sapiente incidunt dolorem rem ab praesentium itaque!",
+        "description": "Este é o projeto de uma landing page que divulga os serviços de uma barbearia. Nela se pode encontrar as diversas informações como localização, contato e serviços.",
         "pathImg": "../../../assets/images/barretos-barbearia.png",
         "techs": ["angular", "ts"],
         "linkGitHub": "https://github.com/Deividb2/barretos-barbearia",
@@ -18,7 +11,7 @@ export const projects: Array<IProjects> = [
     },
     {
         "name": "AMCK Planejados",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis illum sapiente incidunt dolorem rem ab praesentium itaque!",
+        "description": "A AMCK Planejados é uma empresa fabricante de móveis planejados. Neste projeto, desenvolvi uma landing page no qual divulga os seus serviços.",
         "pathImg": "../../../assets/images/amck.png",
         "techs": ["html", "css", "js", "angular"],
         "linkGitHub": "https://github.com/Deividb2/amck",
@@ -26,7 +19,7 @@ export const projects: Array<IProjects> = [
     },
     {
         "name": "Restaurante Dining",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis illum sapiente incidunt dolorem rem ab praesentium itaque!",
+        "description": "Este é um projeto de um restaurante localizado na beira de um lago que contém diversas páginas como página de contato, cardápio e promoções do dia.",
         "pathImg": "../../../assets/images/restaurante-dining.png",
         "techs": ["html", "css", "js", "react"],
         "linkGitHub": "https://github.com/Deividb2/restaurante-dining",
@@ -34,7 +27,7 @@ export const projects: Array<IProjects> = [
     },
     {
         "name": "47 Cafeteria",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis illum sapiente incidunt dolorem rem ab praesentium itaque!",
+        "description": "Neste projeto desenvolvi uma cafeteria com diversas páginas.",
         "pathImg": "../../../assets/images/cafeteria.png",
         "techs": ["html", "css", "js", "react"],
         "linkGitHub": "https://github.com/Deividb2/cafeteria",
@@ -42,7 +35,7 @@ export const projects: Array<IProjects> = [
     },
     {
         "name": "Timbrehits",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis illum sapiente incidunt dolorem rem ab praesentium itaque!",
+        "description": "Nessa projeto, desenvolvi um site que divulga um fone de ouvido de alta qualidade. Nele está presente 3 páginas principais: Home, Benefícios e Depoimentos",
         "pathImg": "../../../assets/images/timbrehits.png",
         "techs": ["html", "css", "js", "angular"],
         "linkGitHub": "https://github.com/Deividb2/timbrehits",
@@ -50,7 +43,7 @@ export const projects: Array<IProjects> = [
     },
     {
         "name": "Barros Consultores",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis illum sapiente incidunt dolorem rem ab praesentium itaque!",
+        "description": "Barros Consultores é uma empresa de gestão de negócios. Aqui eu desenolvi uma landing page que mostra os seus serviços.",
         "pathImg": "../../../assets/images/barros-consultores.png",
         "techs": ["html", "css", "js", "angular"],
         "linkGitHub": "https://github.com/Deividb2/barros-consultores",
@@ -58,7 +51,7 @@ export const projects: Array<IProjects> = [
     },
     {
         "name": "LD Obras",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis illum sapiente incidunt dolorem rem ab praesentium itaque!",
+        "description": "Este é um site que desenvolvi pensando na LD Obras, que é um empresa prestadora de serviços de pintura, alvenaria e reformas. Nele está toda a divulgação da empresa.",
         "pathImg": "../../../assets/images/ld-obras.png",
         "techs": ["html", "css", "js", "react"],
         "linkGitHub": "https://github.com/Deividb2/ld-obras",

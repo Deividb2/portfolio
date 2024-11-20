@@ -29,12 +29,11 @@ body {
 
 // estilização da barra lateral
 ::-webkit-scrollbar {
-    width: 1rem;
+    width: .5rem;
 
     // estiliza a barra de rolagem
     &-thumb {
         background-color: $purple-100;
-        border-radius: 0.6rem;
         border: 3px solid transparent;
         background-clip: padding-box;
 

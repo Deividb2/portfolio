@@ -2,32 +2,15 @@
     <h2 class="titles__sections">Contato</h2>
 
     <div class="contact__networks">
-        <a href="https://github.com/Deividb2" target="_blank">
+        <a 
+            *ngFor="let network of networks"
+            target="_blank"
+            (click)="openLink(network.linkNetWork)"
+            >
             <div>
-                <ng-icon name="gitHub"></ng-icon>
+                <ng-icon [name]="network.iconName"></ng-icon>
             </div>
-            <h4>GitHub</h4>
-        </a>
-
-        <a href="mailto:deividbarreto57@gmail.com" target="_blank">
-            <div>
-                <ng-icon name="email"></ng-icon>
-            </div>
-            <h4>Email</h4>
-        </a>
-
-        <a href="https://www.linkedin.com/in/deividbarretocruz" target="_blank">
-            <div>
-                <ng-icon name="linkedin"></ng-icon>
-            </div>
-            <h4>Linkedin</h4>
-        </a>
-
-        <a href="https://wa.me/5521977201714" target="_blank">
-            <div>
-                <ng-icon name="whatsapp"></ng-icon>
-            </div>
-            <h4>Whatsapp</h4>
+            <h4>{{ network.name }}</h4>
         </a>
     </div>
 </section>
