@@ -1,8 +1,6 @@
 @import "../../../assets/styles/variables";
 
 main {
-    background-color: $black;
-
     .profile {
         display: flex;
         flex-direction: column;
@@ -15,7 +13,7 @@ main {
             height: 18rem;
             border-radius: 50%;
             background: url(../../../assets/images/profile.jpg) no-repeat center / cover;
-            box-shadow: 0 0 20px $purple;
+            box-shadow: 0 0 20px $purple-light;
         }
 
         &__content {
