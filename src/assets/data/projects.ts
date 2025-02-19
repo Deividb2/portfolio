@@ -10,16 +10,16 @@ export const projects: Array<IProjects> = [
         linkProject: "https://editor-mobile.vercel.app/"
     },
     {
-        name: "Barretos Academia",
-        description: "Este projeto é uma landing page que divulga serviços de uma Barbearia.",
-        pathImg: "../../../assets/images/barretos-barbearia.png",
-        techs: ["html", "css", "js", "angular"],
+        name: "Pet Shop",
+        description: "Este é um projeto pessoal, inspirado num outro projeto, de um Pet Shop que faz serviços para o cuidado de animais.",
+        pathImg: "../../../assets/images/pet-shop.png",
+        techs: ["html", "css", "ts", "angular"],
         linkGitHub: "https://github.com/Deividb2/fitness_gym",
         linkProject: "https://fitness-gym-two.vercel.app"
     },
     {
         name: "Barretos Barbearia",
-        description: "Barreto Barbearia projeto que promove os serviços estéticos de uma barbearia.",
+        description: "Barreto Barbearia é um projeto pessoal meu que promove os serviços estéticos de uma barbearia.",
         pathImg: "../../../assets/images/barretos-barbearia.png",
         techs: ["angular", "ts"],
         linkGitHub: "https://github.com/Deividb2/barretos-barbearia",
