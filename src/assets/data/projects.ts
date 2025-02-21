@@ -14,14 +14,14 @@ export const projects: Array<IProjects> = [
         description: "Este é um projeto pessoal, inspirado num outro projeto, de um Pet Shop que faz serviços para o cuidado de animais.",
         pathImg: "../../../assets/images/pet-shop.png",
         techs: ["html", "css", "ts", "angular"],
-        linkGitHub: "https://github.com/Deividb2/fitness_gym",
-        linkProject: "https://fitness-gym-two.vercel.app"
+        linkGitHub: "https://github.com/Deividb2/pet-shop",
+        linkProject: "https://pet-shop-orcin.vercel.app"
     },
     {
         name: "Barretos Barbearia",
         description: "Barreto Barbearia é um projeto pessoal meu que promove os serviços estéticos de uma barbearia.",
         pathImg: "../../../assets/images/barretos-barbearia.png",
-        techs: ["angular", "ts"],
+        techs: ["html", "css", "ts", "angular"],
         linkGitHub: "https://github.com/Deividb2/barretos-barbearia",
         linkProject: "https://barretos-barbearia.vercel.app"
     },

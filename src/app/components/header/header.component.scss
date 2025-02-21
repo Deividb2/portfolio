@@ -14,6 +14,7 @@
 
     .openMenu {
         width: 80vw !important;
+        border-right: 4px solid $white-default;
     }
 
     &__content {
@@ -28,7 +29,6 @@
         padding-top: 5rem;
         overflow: hidden;
         transition: width .5s ease;
-        border-right: 4px solid $white-default;
 
         &--title {
             display: none;
